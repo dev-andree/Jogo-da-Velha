@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #0099ff;
+  --winning-blocks: #b9009a;
+}
+
+body {
+  color: var(--blue);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00153b;
+}
+
+#player-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#player-setup input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+#gameboard {
+  width: min(95%, 300px);
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+#scoreboard {
+  margin-top: 40px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: #fff;
+  width: min(95%, 200px);
+  max-width: 100%;
+}
+
+#ranking-board {
+  margin-top: 20px;
+  width: min(95%, 300px);
+  color: #fff;
+}
+
+#ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#ranking-table th, #ranking-table td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
