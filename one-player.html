@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="playerText"></h1>
+      <a href="./index.html" class="mode-btn">2 Jogadores</a>
+      <button id="restartBtn">Restart</button>
+
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
+
+      <div id="scoreboard">
+        <p>X - <span id="x-points">0</span></p>
+        <p>VS</p>
+        <p>O - <span id="o-points">0</span></p>
+      </div>
+
+      <div id="difficulty-board">
+        <p>Nível: </p>
+        <select id="difficulty-select">
+          <option value="1">Fácil</option>
+          <option value="2">Médio</option>
+          <option value="3">Difícil</option>
+        </select>
+      </div>
+    </div>
+
+    <script type="module" src="./assets/JS/one-player.js"></script>
+  </body>
+</html>
