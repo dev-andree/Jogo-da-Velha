@@ -77,3 +77,91 @@ h1 {
   padding: 8px;
   text-align: center;
 }
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+  font-size: 120px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.box:nth-child(3n) {
+  border-right: none;
+}
+
+.box:nth-child(6) ~ .box {
+  border-bottom: none;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+  font-size: 1.2rem;
+  transition: 200ms transform;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.mode-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+  font-size: 1.2rem;
+  transition: 200ms transform;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+#playerText{
+  position: relative;
+  top: 130px;
+  font-size: 20pt;
+}
+
+#player-setup{
+  position: relative;
+  top: 130px;
+}
+
+#startBtn{
+  position: relative;
+  top: 1px;
+  font-size: 7pt;
+  left: 120px;
+}
+
+.mode-btn{
+  position: relative;
+  top: 70px;
+  font-size: 7pt;
+  right: 120px;
+}
+
+#restartBtn{
+  position: relative;
+  font-size: 7pt;
+  top: 20px;
+}
+
+#ranking-board{
+  width: 40px;
+  position: relative;
+  left: 25%;
+  bottom: 70%;
+}
