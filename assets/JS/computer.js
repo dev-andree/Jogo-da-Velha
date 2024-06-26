@@ -59,3 +59,58 @@ export default class Computer {
       boxes[this.getRandomAvailableSpace(spaces)].click();
     }
   }
+
+  getRandomAvailableSpace(spaces) {
+    const availableSpaces = (() => {
+      const aux = [];
+      for (let i = 0; i < spaces.length; i++) {
+        if (!spaces[i]) aux.push(i);
+      }
+      return aux;
+    })();
+
+    return availableSpaces[Math.floor(Math.random() * availableSpaces.length)];
+  }
+
+  getRemainingSpaces(spaces) {
+    return spaces.filter((space) => !space);
+  }
+
+  getSpaceToWin(spaces) {
+    for (const combo of this.winningCombos) {
+      const [a, b, c] = combo;
+
+      if (spaces[a] === "O" && spaces[b] === "O" && !spaces[c]) return c;
+      else if (spaces[a] === "O" && spaces[c] === "O" && !spaces[b]) return b;
+      else if (spaces[b] === "O" && spaces[c] === "O" && !spaces[a]) return a;
+    }
+    return null;
+  }
+
+  getBlockingSpace(spaces) {
+    for (const combo of this.winningCombos) {
+      const [a, b, c] = combo;
+
+      if (spaces[a] === "X" && spaces[b] === "X" && !spaces[c]) return c;
+      else if (spaces[a] === "X" && spaces[c] === "X" && !spaces[b]) return b;
+      else if (spaces[b] === "X" && spaces[c] === "X" && !spaces[a]) return a;
+    }
+    return null;
+  }
+
+  getRandomCorner() {
+    const corners = [0, 2, 6, 8];
+    return corners[Math.floor(Math.random() * corners.length)];
+  }
+
+  getSpaceToCreateChance(spaces) {
+    for (const combo of this.winningCombos) {
+      const [a, b, c] = combo;
+
+      if (!spaces[a] && !spaces[b] && spaces[c] == "O") return a;
+      else if (!spaces[a] && spaces[b] == "O" && !spaces[c]) return c;
+      else if (spaces[a] == "O" && !spaces[b] && !spaces[c]) return b;
+    }
+    return null;
+  }
+}
