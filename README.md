@@ -1,4 +1,9 @@
 # Jogo-da-Velha
+## Desing Inicial: 
+
+![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/31f9c0d2-dd5d-454a-8f81-9ab44a631fef)
+![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/fc326fc2-22ae-4b4d-ae4e-d4154b985bbe)
+
 
 ## Diagrama de Classe:
 Nosso diagrama de classe serviu como uma ferramenta visual na qual nos ajudou a entender e organizar a estrutura do jogo da velha. Ele ilustra as classes do jogo, seus atributos, métodos e os relacionamentos entre elas. 
