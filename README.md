@@ -1,8 +1,4 @@
 # Jogo-da-Velha
-## Desing Inicial: 
-
-![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/31f9c0d2-dd5d-454a-8f81-9ab44a631fef)
-![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/fc326fc2-22ae-4b4d-ae4e-d4154b985bbe)
 
 
 ## Diagrama de Classe:
@@ -19,7 +15,6 @@ Nosso diagrama de classe serviu como uma ferramenta visual na qual nos ajudou a 
 - Tabuleiro: nosso grupo optou por utilizar um tabuleiro gráfico para facilitar a visualização e a interação dos nossos jogadores.
 - Desing Responsivo: Nosso grupo tornou a página web resposiva para que ea fosse acessível e agradável ao olhar em vários dispositivos.
 - Ranking: Optamos por deixar a tabela com o ranking na mesma página em que aconece o jogo.
-- Nível de dificuladade: O grupo decidiu colocar na página do jogo uma parte na qual o jogador pode mudar o nível de dificuldade conforme seu gosto.
 
 
 ## Desafios Encontrados
