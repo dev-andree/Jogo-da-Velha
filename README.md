@@ -1,8 +1,7 @@
 # Jogo-da-Velha
 
 ## Diagrama de Classe:
-Versão final do diagrama de classe:
-
+Nosso diagrama de classe serviu como uma ferramenta visual na qual nos ajudou a entender e organizar a estrutura do jogo da velha. Ele ilustra as classes do jogo, seus atributos, métodos e os relacionamentos entre elas. 
 
 ![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/345578c6-7a47-4f3f-833a-781a4ad240f8)
 
