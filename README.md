@@ -7,6 +7,28 @@ Versão final do diagrama de classe:
 ![image](https://github.com/dev-andree/Jogo-da-Velha/assets/136995061/345578c6-7a47-4f3f-833a-781a4ad240f8)
 
 
+
+# Relatório de Desenvolvimento do Nosso Jogo:
+
+## Design: 
+
+- Tabuleiro: nosso grupo optou por utilizar um tabuleiro gráfico para facilitar a visualização e a interação dos nossos jogadores.
+- Desing Responsivo: Nosso grupo tornou a página web resposiva para que ea fosse acessível e agradável ao olhar em vários dispositivos.
+- Ranking: Optamos por deixar a tabela com o ranking na mesma página em que aconece o jogo.
+- Nível de dificuladade: O grupo decidiu colocar na página do jogo uma parte na qual o jogador pode mudar o nível de dificuldade conforme seu gosto.
+
+
+## Desafios Encontrados
+
+__Desafios:__ 
+
+- Nossa principal dififculdade foi tornar a página responsiva.
+- Fazer um design que fosse agradável.
+- Posicionamento dos elementos na tela para que ficassem de forma agradável.
+
+__Solução:__
+- Para deixar o página responsiva optamos por não usar nenhum framework e sim usarmos as próprias propriedades do css como os tipos de position e colocando algumas propriedades do display, como por exemplo "display block". Além disso, nos preocupamos com a boa disposição dos arquivos HTML para que tudo fique em seu devido lugar.
+  
  
 
 
@@ -77,3 +99,15 @@ __Continuar Jogando:__ Repita até que haja um vencedor ou dê em VELHA.
 - Para jogar novamente, poderá reiniciar o tabuleiro e seguindo os mesmos passos para ir rumo a vitória.
   
 __Agora é sóproveitar o jogo e boa sorte!__
+
+
+## Link do Git Hub Pages:
+
+https://dev-andree.github.io/Jogo-da-Velha/
+
+
+## R.A dos Participantes do grupo:
+
+- __André Guilherme:__ 23213630-2
+- __Gabriele Serejo:__ 23034919-2
+- __Jean Bressan:__ 23110539-2
